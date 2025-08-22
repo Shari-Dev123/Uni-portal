@@ -1,0 +1,86 @@
+.student {
+  padding: 30px;
+  max-width: 900px;
+  margin-top: 40px;
+  margin-left: 450px;
+  background-color: #C4E3F3;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.577);
+}
+
+.student h2 {
+  margin-bottom: 20px;
+  color: #003954;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #1f93c9;
+}
+
+.student input {
+  display: block;
+  margin-bottom: 15px;
+  margin-left: 30vh;
+  padding: 10px;
+  width: 100%;
+  max-width: 350px;
+  border: 2px solid #66AFE9;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.student input:focus {
+  border-color: #003954;
+  box-shadow: 0 0 5px rgba(0,57,84,0.5);
+}
+
+
+.student button {
+  padding: 10px 20px;
+  background-color: #003954;
+  color: white;
+  margin-left: 80vh;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.student button:hover {
+  background-color: #66AFE9;
+  transform: translateY(-2px);
+}
+
+
+.student table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.student th,
+.student td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.student th {
+  background-color: #003954;
+  color: white;
+}
+
+.student tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.student tr:hover {
+  background-color: #C4E3F3;
+}

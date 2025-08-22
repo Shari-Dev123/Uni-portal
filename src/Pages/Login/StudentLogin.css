@@ -1,0 +1,57 @@
+.student-login {
+  padding: 24px;
+  max-width: 400px;
+  margin: 50px auto;
+  background: #c4e3f3;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.681);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.student-login h2 {
+  text-align: center;
+  color: #003954;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+
+.student-login input {
+  display: block;
+  width: 95%;
+  margin-bottom: 14px;
+  padding: 12px;
+  border: 1px solid #66afe9;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.student-login input:focus {
+  border-color: #003954;
+  box-shadow: 0 0 5px rgba(20, 20, 20, 0.848);
+}
+
+.student-login button {
+  width: 100%;
+  padding: 12px;
+  background-color: #003954;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.student-login button:hover {
+  background-color: #00263a;
+  transform: translateY(-1px);
+}
+
+.student-login button:active {
+  transform: translateY(0);
+}

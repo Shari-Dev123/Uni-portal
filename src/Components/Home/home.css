@@ -1,0 +1,91 @@
+.home-container {
+  font-family: 'Arial', sans-serif;
+  color: #1f2937;
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/uni.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  max-width: 60rem;
+  padding: 2rem;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  line-height: 5rem;
+  text-shadow: 1px 1px 1px  black;
+}
+
+@media (min-width: 640px) {
+  .hero-title {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 5rem;
+  }
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+}
+
+.hero-button {
+  padding: 1rem 2rem;
+  border-radius: 9999px;
+  background-color: #ffffff48;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px 1px black;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.425);
+}
+
+.hero-button:hover {
+  background-color: #66AFE9;
+  color: white;
+  transform: scale(1.05);
+}
+
+.image-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #f9fafb;
+}
+
+.image-container {
+    position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.university-image {
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}

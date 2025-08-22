@@ -1,0 +1,61 @@
+
+.navbar {
+  background-color: #d1d6d8d2; 
+  color: white;
+  padding: 12px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.uoh-logo {
+  height: 60px;
+  transition: transform 0.3s ease;
+}
+
+.uoh-logo:hover {
+  transform: scale(1.05);
+}
+
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+
+.navbar-link,
+.navbar-link-teacher {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover,
+.navbar-link-teacher:hover {
+  color: #C4E3F3;
+}
+
+
+.navbar-link::after,
+.navbar-link-teacher::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #66AFE9;
+  transition: width 0.3s ease;
+}
+
+.navbar-link:hover::after,
+.navbar-link-teacher:hover::after {
+  width: 100%;
+}
