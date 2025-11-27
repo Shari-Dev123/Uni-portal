@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import { Routes, Route } from "react-router-dom";
 import StudentLogin from "./Pages/Login/StudentLogin.jsx";
 import StudentSearch from "./Pages/Student/StudentSearch.jsx";
-import TeacherLogin from "./Pages/Teacher/teacherLogin.jsx";
+import TeacherLogin from "./Pages/Teacher/TeacherLogin.jsx";
 import TeacherDashboard from "./TeacherDashboard/TeacherDashboard.jsx";
 import Home from './Components/Home/home.jsx';
 
